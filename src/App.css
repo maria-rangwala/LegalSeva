@@ -5,8 +5,15 @@
 body {
   background: rgb(var(--background-start-rgb));
   color: rgb(var(--foreground-rgb));
-  background-color: #a59986;
+  background-color: #fafafb;
 }
-#main-body{
- height: 1000px;
-}
+/* 
+#fafafb white
+#a59986 beige
+#030303 black
+#7f7363 dark beige
+#28221c ajeeb sa brown
+#644d3a light brown
+#140806 thoda light black
+#4f2c17 dark brown 
+*/

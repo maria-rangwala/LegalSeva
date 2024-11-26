@@ -13,12 +13,13 @@
     padding: 25px 35px;
     bottom: 0px;
     margin: 30px 0px 0px;
+    margin-top: 60px;
     font-size: 1.1em;
     font-weight: 500;
 }
 .contact{
     display: flex;
-    background-color: rgb(239, 232, 204);
+    background-color: #a59986;
     justify-content: space-between;
     padding: 2em;
     height: 40px;
@@ -30,16 +31,26 @@
     transform: translateY(-65px);
 }
 .contact p{
-   color: #000000;
+   color: #28221c;
    font-size: xx-large;
    font-weight: bolder; 
 }
 .contact a{
-    background-color: #1c1c1c;
-    color: white;
+    background-color: #28221c;
+    color: #fafafb;
     padding: 0.5em;
     text-decoration: none;
     text-wrap: nowrap;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    place-items: center;
+   
 }
 .icons a{
     background-color: #fafafb;

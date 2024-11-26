@@ -1,13 +1,15 @@
 import './App.css';
 import React from 'react';
-import Header from './components/header'
-import Footer from './components/footer';
+import Landingpg from './components/landingpg';
+import Card from './components/card';
+import Team from './components/team';
+
 function App() {
   return (
     <>
-     <Header/>
-     <div id='main-body'></div>
-     <Footer/>
+      {/* <Team/> */}
+      {/* <Card/> */}
+      <Landingpg/>
     </>
   );
 }

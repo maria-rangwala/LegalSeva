@@ -1,0 +1,86 @@
+.landing-tagline{
+    display: flex;
+}
+.welcome-user{
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    width: 50%;
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.welcome-user h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+}
+.welcome-user p{
+    font-size: 1.5em;
+    color: #333;
+}
+.call-img{
+    width: 50%;
+    height: 500px;
+    margin-top: 80px;
+    background-image: url('file:///C:/Users/rangw/OneDrive/Desktop/LegalSeva/public/judge.svg');
+    background-size: cover;
+}
+.join-btn-user{
+    margin-top: 50px;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #a59986;
+    background-color: #28221c;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+.join-btn-user:hover{
+    background-color: #140806;
+    color: #fafafb;
+}
+.service-providers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    color: #140806;
+    margin-top: 50px;
+}
+.service-providers h4{
+    font-size: 1.2em;
+    text-align: center;
+}
+.service-providers ul{
+    font-size: 1.5em;
+    width: 40%;
+    font-weight: 600;
+    margin: 30px 0px;
+    display: flex;
+    position: static;
+    place-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service-providers li:hover{
+    font-size: 1.1em;
+}
+@media (min-width: 786px) {
+    
+}
+@media (max-width: 786px) {
+    .welcome-user{
+        margin-top: 170px;
+        width: 100%;
+        padding: 50px;
+    }
+    .call-img{
+        display: none;
+    }
+}

@@ -7,7 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
     return (
-        <header>
+        <div className='header'>
             <div className={`navbar ${!showMenu ? 'responsive' : ''}`} id='navbar'>
             <div className='nav'>
             <img src="legalseva.svg" alt="logo" />
@@ -24,7 +24,7 @@ const Header = () => {
             }
             </div>
             </div>
-        </header>
+        </div>
     );
 };
 

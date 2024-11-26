@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lsp-review{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  line-height: 2;
+  background-color: #a59986;
+  backdrop-filter: blur(10px);
+}
+.review-title{
+  font-size: 1.5rem;
+  color: #28221c;
+}
+.review-subtitle{
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #28221c;
+}
+.reviews{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  padding: 25px 0px;
+  gap: 16px;
+  background-color: #a59986;
+}
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+  background-color: #7f7363;
+  opacity: 0.9;
+  border-radius: 20px;
+  gap: 16px; /* Spacing between image and content */
+}
+
+/* Image Styling */
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: contain;
+  background-image: url('file:///C:/Users/rangw/OneDrive/Desktop/LegalSeva/public/user.svg');
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Content Styling */
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 220px;
+}
+
+/* Title Styling */
+.card-title {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500; /* Medium weight */
+  color: #28221c ;
+  margin: 0; /* Remove default margin */
+}
+
+/* Description Styling */
+.card-description {
+  margin-top: 4px; /* Small spacing below title */
+  color: #fafafb; /* Medium gray */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.5; /* Improve readability */
+  text-wrap: wrap;
+  flex-wrap: wrap;
+}
