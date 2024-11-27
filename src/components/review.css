@@ -10,11 +10,9 @@
   flex-direction: column;
   width: 100vw;
   line-height: 2;
-  background-color: #a59986;
-  backdrop-filter: blur(10px);
 }
 .review-title{
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #28221c;
   margin-top: 20px;
 }
@@ -30,9 +28,7 @@
   width: 100vw;
   padding: 25px 0px;
   gap: 16px;
-  background-color: #a59986;
 }
-/* Card Container */
 .card-container {
   display: flex;
   flex-direction: column;
@@ -40,13 +36,9 @@
   justify-content: center;
   height: 300px;
   width: 250px;
-  background-color: #7f7363;
-  opacity: 0.9;
-  border-radius: 20px;
-  gap: 16px; /* Spacing between image and content */
+  background-color: #a59986;
+  gap: 16px; 
 }
-
-/* Image Styling */
 .card-image {
   width: 100px;
   height: 100px;
@@ -56,8 +48,6 @@
   object-fit: cover;
   object-position: center;
 }
-
-/* Content Styling */
 .card-content {
   display: flex;
   flex-wrap: wrap;
@@ -67,21 +57,17 @@
   text-align: center;
   width: 220px;
 }
-
-/* Title Styling */
 .card-title {
-  font-size: 1.125rem; /* 18px */
-  font-weight: 600; /* Medium weight */
+  font-size: 1.125rem;
+  font-weight: 600; 
   color: #28221c ;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
-
-/* Description Styling */
 .card-description {
-  margin-top: 4px; /* Small spacing below title */
-  color: #fafafb; /* Medium gray */
-  font-size: 0.875rem; /* 14px */
-  line-height: 1.5; /* Improve readability */
+  margin-top: 4px;
+  color: #fafafb; 
+  font-size: 0.875rem; 
+  line-height: 1.5;
   text-wrap: wrap;
   flex-wrap: wrap;
 }

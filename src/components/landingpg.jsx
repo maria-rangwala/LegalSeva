@@ -4,6 +4,7 @@ import './landingpg.css';
 import Footer from './footer';
 import Header from './header';
 import Reviews from './Reviews';
+import Feature from './feature';
 
 function Landingpg() {
   const [text] = useTypewriter({
@@ -35,10 +36,11 @@ function Landingpg() {
           <li>Notaries</li>
         </ul>
       </div>
-      <div className='features'>
-        <div className='feature1'></div>
-        <div className='feature2'></div>
-        <div className='feature3'></div>
+      <Feature/>
+      <div className='lsp-join'>
+          <h2>Join LegalSeva Today</h2><br/>
+          <p>Connect with clients from all over India and grow your practice with LegalSeva.</p>
+        <button className='join-btn-lsp'>Join LegalSeva Now!</button>
       </div>
       <Reviews/>
       <Footer/>

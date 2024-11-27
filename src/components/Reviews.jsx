@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css"; // Link to your CSS file
+import "./review.css"; 
 
 const reviews = [
   {
@@ -48,7 +48,7 @@ const Reviews = () => {
         ))}
       </div>
     </div>
-      );
+    );
 };
 
 export default Reviews;
