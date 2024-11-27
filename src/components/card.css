@@ -16,6 +16,7 @@
 .review-title{
   font-size: 1.5rem;
   color: #28221c;
+  margin-top: 20px;
 }
 .review-subtitle{
   font-size: 1.125rem;
@@ -70,7 +71,7 @@
 /* Title Styling */
 .card-title {
   font-size: 1.125rem; /* 18px */
-  font-weight: 500; /* Medium weight */
+  font-weight: 600; /* Medium weight */
   color: #28221c ;
   margin: 0; /* Remove default margin */
 }

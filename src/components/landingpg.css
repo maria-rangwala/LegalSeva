@@ -48,10 +48,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 90px;
+    height: 150px;
     width: 100%;
     color: #140806;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 .service-providers h4{
     font-size: 1.2em;

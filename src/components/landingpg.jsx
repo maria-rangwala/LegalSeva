@@ -3,7 +3,7 @@ import {useTypewriter , Cursor} from 'react-simple-typewriter'
 import './landingpg.css';
 import Footer from './footer';
 import Header from './header';
-import Card from './card';
+import Reviews from './Reviews';
 
 function Landingpg() {
   const [text] = useTypewriter({
@@ -35,12 +35,12 @@ function Landingpg() {
           <li>Notaries</li>
         </ul>
       </div>
-      {/* <div className='features'>
+      <div className='features'>
         <div className='feature1'></div>
         <div className='feature2'></div>
         <div className='feature3'></div>
-      </div> */}
-      <Card/>
+      </div>
+      <Reviews/>
       <Footer/>
     </div>
   )
