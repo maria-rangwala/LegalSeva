@@ -5,6 +5,7 @@ import Footer from './footer';
 import Header from './header';
 import Reviews from './Reviews';
 import Feature from './feature';
+import Team from './team';
 
 function Landingpg() {
   const [text] = useTypewriter({
@@ -27,7 +28,7 @@ function Landingpg() {
         </div>
         <div className='call-img'></div>
       </div>
-      <div className='service-providers'>
+      <div className='service-providers' id='about'>
         <h4>Trusted by Legal Professionals</h4>
         <ul>
           <li>Advocates</li>
@@ -43,6 +44,7 @@ function Landingpg() {
         <button className='join-btn-lsp'>Join LegalSeva Now!</button>
       </div>
       <Reviews/>
+      <Team/>
       <Footer/>
     </div>
   )

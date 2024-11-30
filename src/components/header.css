@@ -10,13 +10,14 @@
     height: 80px;
     backdrop-filter: blur(10px); 
     position: fixed;
+    z-index: 1000;
 }
 .navbar{
     background-color: #a59986;
     height: 50px;
     width: 60vw;
     display:flex;
-    color:black;
+    color: #fafafb;
     padding: 10px;
     top:0px;
     justify-content: space-between;
@@ -47,7 +48,7 @@ margin: 5px;
 margin-bottom: 15px;
 margin-right: 25px;
 font-size: larger;
-color: #4f2c17;
+color: #fafafb;
 align-items: center;
 font-weight: bold;
 background-color:none;
